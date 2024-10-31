@@ -64,7 +64,7 @@ const GradientText: React.FC<GradientTextProps> = ({ children }) => (
   <span
     className="bg-clip-text text-transparent"
     style={{
-      backgroundImage: `linear-gradient(to right, ${COLORS.primary}, ${COLORS.secondary})`,
+      backgroundImage: `linear-gradient(to right, ${COLORS.primary}, black)`,
     }}
   >
     {children}
