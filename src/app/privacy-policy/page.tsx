@@ -59,7 +59,7 @@ const PrivacyPolicy: PrivacySection[] = [
   {
     title: "10. Contact Us",
     content:
-      "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at team@beatbytes.app.",
+      "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at admin@beatbytes.app.",
   },
 ];
 

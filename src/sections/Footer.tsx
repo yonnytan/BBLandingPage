@@ -20,7 +20,7 @@ export const Footer = () => {
             <Image src={TikLogo} height={40} alt="tik logo" />
           </button>
         </div>
-        <p className="mt-6">&copy; 2024 BeatBytes, Inc. All rights reserved</p>
+        <p className="mt-6">&copy; 2024 Beatbytes LLC. All rights reserved</p>
       </div>
     </footer>
   );
