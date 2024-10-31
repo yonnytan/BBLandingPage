@@ -64,9 +64,10 @@ const PrivacyPolicy: PrivacySection[] = [
 ];
 
 export default function TermsAndConditionsPage() {
+  const featuresRef = useRef<HTMLDivElement>(null);
   return (
     <>
-      <Header featuresRef={undefined} />
+      <Header featuresRef={featuresRef} />
       <main className="min-h-screen bg-[#EAEEFE]">
         <div className="container mx-auto px-4 py-8">
           <h1 className="text-3xl font-bold mb-6 pt-20">Privacy Policy</h1>
