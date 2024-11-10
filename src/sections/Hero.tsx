@@ -12,7 +12,7 @@ import {
 
 import bbImage from "@/assets/bbIphone.png";
 import speakerImage from "@/assets/bbSpeaker.png";
-import apple from "@/assets/app-store-badge.png";
+import apple from "@/assets/appstore.png";
 
 // Constants
 const COLORS = {
@@ -83,7 +83,7 @@ export const Hero: React.FC = () => {
   return (
     <section
       ref={heroRef}
-      className="pt-8 pb-20 md:pt-5 md:pb-10 overflow-x-clip"
+      className="pt-20 pb-20 md:pt-5 md:pb-10 overflow-x-clip "
       style={{
         background: `radial-gradient(ellipse 200% 100% at bottom left, ${COLORS.primary}, ${COLORS.secondary} 100%)`,
       }}

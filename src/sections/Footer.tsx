@@ -8,7 +8,7 @@ export const Footer = () => {
     <footer className="bg-black text-[#BCBCBC] text-sm py-10 text-center">
       <div className="container">
         <div className="inline-flex relative before:content-[''] before:top-.75 before:bottom-0 before:h-full before:blur before:w-full before:bg-[linear-gradient(to_right,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF,#DD7DDF)] before:absolute">
-          <Image src={Logo} height={40} alt="bb Logo" className="relative" />
+          <Image src={Logo} style={{borderRadius: 5}} height={40} alt="bb Logo" className="relative" />
         </div>
         <nav className="flex flex-col md:flex-row justify-center gap-6 mt-6">
           <Link href="/">Home</Link>

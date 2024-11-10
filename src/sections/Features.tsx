@@ -13,12 +13,12 @@ import {
 
 import bbImage2 from "@/assets/drakess.png";
 import speakerImage from "@/assets/bbSpeaker.png";
-import apple from "@/assets/app-store-badge.png";
+import apple from "@/assets/appstore.png"
 
 // Constants
 const COLORS = {
   primary: "#183EC2",
-  secondary: "#EAEEFE",
+  secondary: "#5678FFFF",
 };
 
 // Component Props Interfaces
@@ -61,8 +61,8 @@ const AnimatedSpeaker: React.FC<AnimatedSpeakerProps> = ({
 
 const FeatureItem: React.FC<FeatureItemProps> = ({ title, description }) => (
   <div className="mb-8">
-    <h3 className="text-2xl font-bold mb-2">{title}</h3>
-    <p className="text-lg">{description}</p>
+    <h3 className="text-2xl font-bold mb-2 text-white">{title}</h3>
+    <p className="text-lg text-blue-100">{description}</p>
   </div>
 );
 
@@ -88,7 +88,7 @@ export const Features = React.forwardRef<HTMLElement, FeaturesProps>(
         }}
       >
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl md:text-7xl font-bold text-center mb-16">
+          <h2 className="text-4xl md:text-7xl font-bold text-center mb-16 text-white">
             Features
           </h2>
           <div className="md:flex items-start justify-between">
