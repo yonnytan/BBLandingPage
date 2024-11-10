@@ -105,7 +105,7 @@ export const Features = React.forwardRef<HTMLElement, FeaturesProps>(
 
 // Sub-components
 const FeaturesList: React.FC = () => (
-  <>
+  <div className="pt-10">
     <FeatureItem
       title="Free and Unlimited Access"
       description="Enjoy your favorite songs without any subscription fees. BeatBytes gives you unlimited access to an extensive library of music, all for FREE."
@@ -133,7 +133,7 @@ const FeaturesList: React.FC = () => (
         />
       </button>
     </div>
-  </>
+  </div>
 );
 
 interface AppPreviewProps {
