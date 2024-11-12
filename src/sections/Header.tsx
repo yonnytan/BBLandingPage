@@ -25,6 +25,7 @@ export const Header: React.FC<HeaderProps> = ({ featuresRef }) => {
         <nav className="flex space-x-4">
           <Link href="/">Home</Link>
           <button onClick={scrollToFeatures}>Features</button>
+          <Link href="/support">Support</Link>
         </nav>
       </div>
     </header>

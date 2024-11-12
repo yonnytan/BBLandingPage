@@ -14,6 +14,7 @@ export const Footer = () => {
           <Link href="/">Home</Link>
           <Link href="/terms-and-conditions">Terms and Conditions</Link>
           <Link href="/privacy-policy">Privacy Policy</Link>
+          <Link href="/support">Support</Link>
         </nav>
         <div className="grid place-items-center mt-6">
           <button>
