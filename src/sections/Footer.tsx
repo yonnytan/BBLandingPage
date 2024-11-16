@@ -17,7 +17,7 @@ export const Footer = () => {
           <Link href="/support">Support</Link>
         </nav>
         <div className="grid place-items-center mt-6">
-          <button>
+          <button onClick={() => window.location.href = "https://www.tiktok.com/@beatbyteslyrics"}>
             <Image src={TikLogo} height={40} alt="tik logo" />
           </button>
         </div>

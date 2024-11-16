@@ -114,7 +114,7 @@ const LeftContent: React.FC<ContentProps> = ({ translateY }) => (
       animate={{ rotate: 70 }}
     />
     <div className="mt-8">
-      <button>
+      <button onClick={() => window.location.href = "https://apps.apple.com/us/app/beatbytes-music-and-podcasts/id6736434475"}>
         <Image src={apple} alt="apple" height={5} width={200} />
       </button>
     </div>

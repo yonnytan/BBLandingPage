@@ -124,7 +124,7 @@ const FeaturesList: React.FC = () => (
     />
 
     <div className="mt-12 flex justify-center">
-      <button>
+      <button onClick={() => window.location.href = "https://apps.apple.com/us/app/beatbytes-music-and-podcasts/id6736434475"}>
         <Image
           src={apple}
           alt="Download on the App Store"
