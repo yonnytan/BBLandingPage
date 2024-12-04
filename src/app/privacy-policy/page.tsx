@@ -59,14 +59,15 @@ const PrivacyPolicy: PrivacySection[] = [
   {
     title: "10. Contact Us",
     content:
-      "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at team@beatbytes.app.",
+      "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at admin@beatbytes.app.",
   },
 ];
 
 export default function TermsAndConditionsPage() {
+  const featuresRef = useRef<HTMLDivElement>(null);
   return (
     <>
-      <Header featuresRef={undefined} />
+      <Header featuresRef={featuresRef} />
       <main className="min-h-screen bg-[#EAEEFE]">
         <div className="container mx-auto px-4 py-8">
           <h1 className="text-3xl font-bold mb-6 pt-20">Privacy Policy</h1>

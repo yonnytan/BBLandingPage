@@ -12,7 +12,7 @@ import {
 
 import bbImage from "@/assets/bbIphone.png";
 import speakerImage from "@/assets/bbSpeaker.png";
-import apple from "@/assets/app-store-badge.png";
+import apple from "@/assets/appstore.png";
 
 // Constants
 const COLORS = {
@@ -64,7 +64,7 @@ const GradientText: React.FC<GradientTextProps> = ({ children }) => (
   <span
     className="bg-clip-text text-transparent"
     style={{
-      backgroundImage: `linear-gradient(to right, ${COLORS.primary}, ${COLORS.secondary})`,
+      backgroundImage: `linear-gradient(to right, ${COLORS.primary}, black)`,
     }}
   >
     {children}
@@ -83,7 +83,7 @@ export const Hero: React.FC = () => {
   return (
     <section
       ref={heroRef}
-      className="pt-8 pb-20 md:pt-5 md:pb-10 overflow-x-clip"
+      className="pt-20 pb-20 md:pt-5 md:pb-10 overflow-x-clip "
       style={{
         background: `radial-gradient(ellipse 200% 100% at bottom left, ${COLORS.primary}, ${COLORS.secondary} 100%)`,
       }}
@@ -114,7 +114,7 @@ const LeftContent: React.FC<ContentProps> = ({ translateY }) => (
       animate={{ rotate: 70 }}
     />
     <div className="mt-8">
-      <button>
+      <button onClick={() => window.location.href = "https://apps.apple.com/us/app/beatbytes-music-and-podcasts/id6736434475"}>
         <Image src={apple} alt="apple" height={5} width={200} />
       </button>
     </div>

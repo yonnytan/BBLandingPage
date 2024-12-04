@@ -19,12 +19,13 @@ export const Header: React.FC<HeaderProps> = ({ featuresRef }) => {
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         <div className="flex items-center">
           <Link href="/">
-            <Image src={Logo} alt="BeatBytes Logo" width={40} height={40} />
+            <Image src={Logo} alt="BeatBytes Logo" width={40} height={40} style={{borderRadius: 5}} />
           </Link>
         </div>
         <nav className="flex space-x-4">
           <Link href="/">Home</Link>
           <button onClick={scrollToFeatures}>Features</button>
+          <Link href="/support">Support</Link>
         </nav>
       </div>
     </header>

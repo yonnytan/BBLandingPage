@@ -69,18 +69,19 @@ const termsAndConditions: TermSection[] = [
   {
     title: "12. Governing Law and Jurisdiction",
     content:
-      "These terms are governed by the laws of [Your Jurisdiction]. Any legal action shall be brought exclusively in the courts of [Your Jurisdiction].",
+      "These terms are governed by the laws of the state of Virginia and and the federal laws of the United States of America. Any legal action shall be brought exclusively in the courts of the state of Virginia.",
   },
   {
     title: "13. Contact Information",
     content:
-      "If you have any questions about these terms or the Beatbytes app, please contact us at [Your Contact Information].",
+      "If you have any questions about these terms or the Beatbytes app, please contact us at admin@beatbytes.app.",
   },
 ];
 export default function TermsAndConditionsPage() {
+  const featuresRef = useRef<HTMLDivElement>(null);
   return (
     <>
-      <Header featuresRef={undefined} />
+      <Header featuresRef={featuresRef} />
       <main className="min-h-screen bg-[#EAEEFE]">
         <div className="container mx-auto px-4 py-8">
           <h1 className="text-3xl font-bold mb-6 pt-20">
